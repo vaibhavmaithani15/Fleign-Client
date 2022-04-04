@@ -1,0 +1,38 @@
+2022-03-21 18:21:19.417  INFO 59368 --- [restartedMain] c.e.demo.MyProductServiceApplication     : Starting MyProductServiceApplication using Java 11.0.14 on nilay-ThinkPad-L560 with PID 59368 (/home/nilay/eclipse-workspace/my-product-service/target/classes started by nilay in /home/nilay/eclipse-workspace/my-product-service)
+2022-03-21 18:21:19.419  INFO 59368 --- [restartedMain] c.e.demo.MyProductServiceApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-03-21 18:21:19.483  INFO 59368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-21 18:21:19.484  INFO 59368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-21 18:21:20.575  INFO 59368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-21 18:21:20.635  INFO 59368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2022-03-21 18:21:21.427  INFO 59368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-03-21 18:21:21.467  INFO 59368 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-21 18:21:21.468  INFO 59368 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-21 18:21:21.560  INFO 59368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-21 18:21:21.560  INFO 59368 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2075 ms
+2022-03-21 18:21:21.697  INFO 59368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-21 18:21:21.943  INFO 59368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-21 18:21:21.958  INFO 59368 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-03-21 18:21:22.189  INFO 59368 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-21 18:21:22.244  INFO 59368 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-21 18:21:22.422  INFO 59368 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-21 18:21:22.571  INFO 59368 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-21 18:21:23.277  INFO 59368 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-21 18:21:23.285  INFO 59368 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-21 18:21:23.663  WARN 59368 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-21 18:21:24.239  INFO 59368 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-21 18:21:24.246  INFO 59368 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-03-21 18:21:24.299  INFO 59368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-03-21 18:21:24.325  INFO 59368 --- [restartedMain] c.e.demo.MyProductServiceApplication     : Started MyProductServiceApplication in 5.5 seconds (JVM running for 6.415)
+2022-03-21 18:21:26.742  INFO 59368 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-21 18:21:26.743  INFO 59368 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-21 18:21:26.745  INFO 59368 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-03-21 18:21:39.273  INFO 59368 --- [http-nio-9090-exec-3] c.e.d.controller.ProductRestController   : one product created ProductEntity(productId=5, productName=Pen, productPrice=2.0, productType=DAILY_NEEDS, isAvailable=true)
+2022-03-21 18:22:30.746  INFO 59368 --- [http-nio-9090-exec-8] c.e.demo.service.ProductServiceImpl      : deleted
+2022-03-21 18:22:57.391  INFO 59368 --- [http-nio-9090-exec-10] c.e.demo.service.ProductServiceImpl      : deleted
+2022-03-21 18:24:37.267  WARN 59368 --- [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.demo.exception.ProductNotFoundException: product with the product id: 44 not found]
+2022-03-21 18:24:42.325  WARN 59368 --- [http-nio-9090-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "rthrth"]
+2022-03-21 18:25:29.034  INFO 59368 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-21 18:25:29.076  INFO 59368 --- [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-21 18:25:29.299  WARN 59368 --- [RMI TCP Connection(13)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-03-21 18:25:29.300  INFO 59368 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-21 18:25:29.304  INFO 59368 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
